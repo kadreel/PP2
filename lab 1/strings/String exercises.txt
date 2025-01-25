@@ -1,0 +1,72 @@
+GOD HAVE MERCY ON MY IGNORANT SOUL
+
+    STRINGS
+> What will be the result of the following code:
+x = 'Welcome'
+print(x[3])
+    Answer: c
+> Use the len function to print the length of the string.
+x = "Hello World"
+    Answer: print(len(x))
+> Get the first character of the string txt.
+txt = "Hello World"
+    Answer: x = txt[0]
+> Insert the correct keyword to check if the word 'free' is present in the text:
+txt = 'The best things in life are free!'
+if 'free' in txt:         <---- ANSWER ANSWER ANSWER
+    print('Yes, free is present in the text.')
+
+    SLICING STRINGS
+> What will be the result of the following code:
+x = 'Welcome'
+print(x[3:5])
+    Answer: co
+> Get the characters from index 2 to index 4 (llo).
+txt = "Hello World"
+    Answer: x = txt[2:5]
+> What will be the result of the following code:
+x = 'Welcome'
+print(x[3:])
+    Amswer: come
+
+    MODIFY STRINGS
+> What is a correct syntax to print a string in upper case letters?
+    Answer:'Welcome'.upper()
+> Return the string without any whitespace at the beginning or the end.
+txt = " Hello World "
+    Answer: x = txt.strip()
+> Convert the value of txt to upper case.
+txt = "Hello World"
+    Answer: txt = txt.upper()
+> Convert the value of txt to lower case.
+txt = "Hello World"
+    Answer: txt = txt.lower()
+> Replace the character H with a J.
+txt = "Hello World"
+    Answer: txt = txt.replace("H", "J")
+
+    CONCATENATE STRINGS
+> What is a correct syntax to merge variable x and y into variable z?
+    Answer: z = x + y
+> What will be the result of the following code:
+x = 'Welcome'
+y = 'Coders'
+print(x + y)
+    Answer: WelcomeCoders
+> Consider this code:
+a = 'Join'
+b = 'the'
+c = 'party'
+What is a correct syntax to print 'Join the party'?
+    Answer: print(a + ' ' + b + ' ' + c)
+
+    FORMAT STRINGS
+> If x = 9, what is a correct syntax to print 'The price is 9.00 dollars'?
+    Answer: print(f'The price is {x:.2f} dollars')
+> Insert the correct syntax to add a placeholder for the age parameter.
+age = 36
+txt = f"My name is John, and I am {age}" <---- ANSWER ANSWER ANSWER
+print(txt)
+> What will be the result of the following code:
+print(f'The price is {2 + 3} dollars')
+    Answer: The price is 5 dollars

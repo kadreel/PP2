@@ -2,39 +2,52 @@ I HAVE NO IDEA WHAT AM I SUPPOSED TO DO FOR LABS
 so, I am doing everything.
 
     VARIABLES
-> What is a correct way to declare a Python variable? Answer: x = 5
-> You can declare string variables with single or double quotes. Answer: True
-> Variable names are not case-sensitive. Answer: False
-> Select the correct functions to print the data type of a variable: print(type(myvar))
+> What is a correct way to declare a Python variable?
+    Answer: x = 5
+> You can declare string variables with single or double quotes.
+    Answer: True
+> Variable names are not case-sensitive.
+    Answer: False
+> Select the correct functions to print the data type of a variable:
+    print(type(myvar))
 
     VARIABLE NAMES
-> Which is NOT a legal variable name? Answer: my-var = 20
-> Create a variable named carname and assign the value Volvo to it. Answer: carname = "Volvo"
-> Create a variable named x and assign the value 50 to it. Answer: x = 50
+> Which is NOT a legal variable name?
+    Answer: my-var = 20
+> Create a variable named carname and assign the value Volvo to it.
+    Answer: carname = "Volvo"
+> Create a variable named x and assign the value 50 to it.
+    Answer: x = 50
 
     MULTIPLE VARIABLE VALUES
-> What is a correct syntax to add the value 'Hello World', to 3 variables in one statement? Answer: x = y = z = 'Hello World'
-> Insert the correct syntax to assign values to multiple variables in one line: x, y, z = "Orange", "Banana", "Cherry"
+> What is a correct syntax to add the value 'Hello World', to 3 variables in one statement?
+    Answer: x = y = z = 'Hello World'
+> Insert the correct syntax to assign values to multiple variables in one line:
+    x, y, z = "Orange", "Banana", "Cherry"
 > Consider the following code:
 fruits = ['apple', 'banana', 'cherry']
 a, b, c = fruits
 print(a)
-What will be the result of a. Answer: apple
+What will be the result of a.
+    Answer: apple
 
     OUTPUT VARIABLES
 > Consider the following code:
 print('Hello', 'World')
-What will be the printed result? Answer: Hello World
+What will be the printed result?
+    Answer: Hello World
 > Consider the following code:
 a = 'Hello'
 b = 'World'
 print(a + b)
-What will be the printed result? Answer: HelloWorld
+What will be the printed result?
+    Answer: HelloWorld
 > Consider the following code:
 a = 4
 b = 5
 print(a + b)
-What will be the printed result? Answer: 9
+What will be the printed result? 
+    Answer: 9
 
     GLOBAL VARIABLES
 > Consider the following code:
@@ -43,10 +56,11 @@ def myfunc():
     x = 'fantastic'
 myfunc()
 print('Python is ' + x)
-What will be the printed result? Answer: Python is awesome
+What will be the printed result?
+    Answer: Python is awesome
 > Insert the correct keyword to make the variable x belong to the global scope.
 def myfunc():
-    global x        <----answer
+    global x        <---- ANSWER ANSWER ANSWER
     x = "fantastic"
 > Consider the following code:
 x = 'awesome'
@@ -55,4 +69,5 @@ def myfunc():
   x = 'fantastic'
 myfunc()
 print('Python is ' + x)
-What will be the printed result? Answer: Python is fantastic
+What will be the printed result?
+    Answer: Python is fantastic
