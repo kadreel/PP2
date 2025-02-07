@@ -19,9 +19,9 @@ movies = [
 def allDesired():
     listOfDesire = []
     for movie in movies:
-        if movie["category"].lower() == categoryDesi.lower():
+        if movie["category"].lower() == categoryDesi.lower():                               #check if it fits category with case-insensitive lower stuff
             listOfDesire.append(movie)
-    return listOfDesire                                                                     #returns all stuff with input category
+    return listOfDesire                                                                     #returns all stuff with matching input category
 
 categoryDesi = input()
 print(allDesired())                                                                         #it just... prints

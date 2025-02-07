@@ -3,7 +3,7 @@ def unique_elements(input_list):
     for item in input_list:
         if item not in unique_list:             #adds only unique items
             unique_list.append(item)
-    return unique_list                          #gives us that unique list back, duh
+    return unique_list                          #gives us that unique list back
 
 list1 = [1, 2, 3, 2, 4, 5, 1]                   #repeats 1, 2
 list2 = ['apple', 'banana', 'apple', 'cherry']  #repeats 'apple'
