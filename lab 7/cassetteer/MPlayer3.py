@@ -4,7 +4,7 @@ import os
 pygame.init()
 pygame.mixer.init()
 
-W = H = 500
+W = H = 600
 screen = pygame.display.set_mode((W, H))
 pygame.display.set_caption("hewwo.")
 font = pygame.font.Font(None, 36)
@@ -66,6 +66,7 @@ while running:
     song_time_Seconds = song_lengths.get(song_name, 0)
     song_time_TrueSEC = song_time_Seconds % 60
     song_time_TrueMIN = song_time_Seconds // 60
+
     song_time_CurSeconds = int(pygame.mixer.music.get_pos() / 1000)
     song_time_CurSEC = song_time_CurSeconds % 60
     song_time_CurMIN = song_time_CurSeconds // 60
@@ -75,7 +76,7 @@ while running:
     else:
         name = font.render(f"Paused: {song_name}", True, (255, 255, 255))
     timeProg = font.render(f"{song_time_CurMIN}:{song_time_CurSEC:02} / {song_time_TrueMIN}:{song_time_TrueSEC:02}", True, (255, 255, 255))
-    exit_text = font.render("Press ESC to exit", True, (255, 255, 255))
+    exit_text = font.render("Space = un/pause, arrows = switch, ESC = exit", True, (255, 255, 255))
     
     screen.blit(timeProg, (W/2 - timeProg.get_width()/2, H/2 - timeProg.get_height()/2 + 50))
     screen.blit(name, (W/2 - name.get_width()/2, H/2 - name.get_height()/2))

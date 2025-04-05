@@ -5,7 +5,7 @@ pygame.init()
 
 screen_width, screen_height = 800, 600
 screen = pygame.display.set_mode((screen_width, screen_height))
-pygame.display.set_caption("Move the Red Ball")
+pygame.display.set_caption("WE ARE BALLIN'!!!!")
 
 ball_radius = 25
 ball_x, ball_y = screen_width // 2, screen_height // 2

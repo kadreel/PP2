@@ -8,9 +8,9 @@ pygame.display.set_caption("That's a surprise tool that can help us later")
 W = 600
 H = 600
 screen = pygame.display.set_mode((W, H))
-arrow = pygame.image.load("lab 7/mickey clock/Hand.png")
-vermin = pygame.image.load("lab 7/mickey clock/Vermin.png")
-ring = pygame.image.load("lab 7/mickey clock/Ring.png")
+arrow = pygame.image.load("lab 7/mickey o'clock/Hand.png")
+vermin = pygame.image.load("lab 7/mickey o'clock/Vermin.png")
+ring = pygame.image.load("lab 7/mickey o'clock/Ring.png")
 clock = pygame.time.Clock()
 
 arrow_rect = arrow.get_rect(center=(W/2, H/2))
@@ -18,11 +18,11 @@ vermin_rect = vermin.get_rect(center=(W/2, H/2))
 ring_rect = vermin.get_rect(center=(W/2, H/2))
 
 while True:
-    screen.fill((255, 20, 65))                                                  #pinkish red, probably should change to 0,0,0
+    screen.fill((0, 0, 0))
 
     seconds = int(time.time()) % 60
     minutes = int(time.time()) // 60 % 60
-    angle1 = seconds * -6 - 90
+    angle1 = seconds * -6 - 270
     angle2 = minutes * -6 - 90
 
     flip_arrow = pygame.transform.flip(arrow, True, False)
