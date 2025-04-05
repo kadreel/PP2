@@ -1,4 +1,5 @@
 import pygame, sys
+from pygame.locals import *
 import random, time
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -71,7 +72,7 @@ class Coin(pygame.sprite.Sprite):
         self.image = pygame.image.load("coin.png")
         self.image = pygame.transform.scale(self.image, (32, 32))
         self.rect = self.image.get_rect()
-        self.rect.center = (random.randint(40, SCREEN_WIDTH - 40), random.randint(40, SCREEN_HEIGHT - 100))
+        self.rect.center = (random.randint(40, SCREEN_WIDTH - 40), 0)
     
     def move(self):
         self.rect.move_ip(0, SPEED)

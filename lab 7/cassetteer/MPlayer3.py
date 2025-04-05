@@ -21,6 +21,7 @@ current_song = 0
 pygame.mixer.music.load(songs[current_song])
 pygame.mixer.music.play()
 pygame.mixer.music.pause()
+pygame.mixer.music.set_volume(0.5)
 
 def play_pause():
     if pygame.mixer.music.get_busy():
