@@ -91,6 +91,7 @@ def game_over():                                                                
     deathCountSession += 1
     cursor.execute('SELECT * FROM scores')
     rows = cursor.fetchall()
+    print("--------------")
     for row in rows:
        print(row)
 
