@@ -4,7 +4,7 @@ import math
 def main():
     pygame.init()
     screen = pygame.display.set_mode((1080, 720))
-    clock = pygame.Clock()
+    clock = pygame.time.Clock()
     active = True
     bg = (0, 0, 0)
     
